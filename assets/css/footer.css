@@ -1,0 +1,112 @@
+ul {
+	list-style: none;
+}
+.phone {
+	width: 40%;
+}
+.morado {
+	background-color: #650e82;
+	margin-top: 0px;
+}
+.description-purple {
+	width: 60%;
+	float: left;
+	height: 50%;
+	color: white;
+}
+.img-video-1, .img-video-2, .img-video-3 {
+	width: 60%;
+}
+.description-top {
+	float: left;
+	width: 40%;
+	color: #333447;
+
+}
+.description-middle {
+	width: 40%;
+	float: right;
+	color: #333447;
+
+}
+.middle, .bottom{
+	margin-top: -4px;
+}
+.description-bottom {
+	width: 40%;
+	float: left;
+	height: 50%;
+	color: #333447;
+
+}
+.btn-become {
+	background-color: #ff00bf;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+	border-radius: .5rem;
+	padding: 5px;
+	color: white;
+}
+.pharagraph-description, h3 {
+	font-size: 1.15em;
+	margin: 25px;
+}
+
+.drive, .partner, .learn {
+	float: left;
+	color: whitesmoke;
+}
+footer{
+	height: 500px;
+	background-color: #333447;
+	font-size: 1rem;
+	margin-top: -5px;
+
+}
+.to:hover{
+	text-decoration: underline;
+	text-decoration-color: #ff00bf;
+	color: white;
+	cursor: pointer;
+}
+li:hover{
+	text-decoration: underline;
+	color: #ff00bf;
+	text-decoration-color: #ff00bf;
+	cursor: pointer;
+}
+.except:hover{
+	color: white;
+	text-decoration: none;
+}
+div.drive li, div.partner li, div.learn li {
+	padding: 10px;
+	margin-right: 50px;
+}
+.loguito {
+	width: 150px;
+	height: 50px;
+}
+.loguito:hover {
+	cursor: pointer;
+}
+#miau{
+	float: right;
+	margin-right: 50px;
+	margin-top: 5px;
+}
+.logos{
+	margin-top: 20px;
+}
+.icono-facebook, .icono-instagram, .icono-twitter{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 350px;
+	padding: 20px;
+}
+div iframe {
+	display: none;
+}
