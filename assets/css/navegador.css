@@ -23,16 +23,18 @@ li{
 }
 #navegador{
   z-index: 1;
- position: fixed;
- display: inline-block;
- width: 100%;
- height: 120px;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  height: 20%;
  background-color: transparent;
 }
 .menu {
     text-decoration: none;
     color: #cccdd1 ;
     padding: 10px;
+    font-size: X-large;
+    margin:1px;
 }
 a:hover{
   color: #4C0B5F;
@@ -40,4 +42,7 @@ a:hover{
 .fondito{
   width: 100%;
   position: static;
+}
+.escondido{
+  display: none;
 }
