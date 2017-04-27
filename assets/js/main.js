@@ -3,6 +3,7 @@ var navegador = document.getElementById("navegador");
 var formTelefono = document.getElementById("formTelefono");
 var formularioOculto = document.getElementById("formularioOculto");
 var inputs = formularioOculto.getElementsByTagName("input");
+var enlaceSign=document.getElementsByClassName("escondido")
 // fin sección variables globales --->
 
 // inicio funcionalidad NAVEGADOR --->
@@ -10,8 +11,10 @@ document.addEventListener("scroll", cambiarFondoNavegador);
   function cambiarFondoNavegador(){
     if (window.scrollY > 90) {
       navegador.style.backgroundColor = "white";
+      enlaceSign[0].style.display="inline-block"
     }else if (window.scrollY < 90) {
       navegador.style.backgroundColor = "transparent";
+      enlaceSign[0].style.display="none";
     }
   }
 // fin funcionalidad NAVEGADOR --->
