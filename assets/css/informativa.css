@@ -2,21 +2,17 @@
   width: 100%;
   display: inline-block;
   position: relative;
-  margin: 0;
+  margin-top: -4px;
   padding-top: 40px;
   padding-left: 70px;
   text-align: justify;
+  background-color: #640e82;
 }
 .secciones{
-  line-height: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 400px;
-}
-.contenedor-extra{
-  position: absolute;
-  right: 170px;
-  top: 40px;
+  width: 60%;
+  float: left;
+  height: 50%;
+  color: white;
 }
 h3{
   font-size: 25px;
