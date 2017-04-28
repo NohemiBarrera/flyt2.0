@@ -3,6 +3,9 @@ var navegador = document.getElementById("navegador");
 var formTelefono = document.getElementById("formTelefono");
 var formularioOculto = document.getElementById("formularioOculto");
 var inputs = formularioOculto.getElementsByTagName("input");
+var videos = document.getElementsByTagName("iframe");
+var imagenes = document.getElementsByClassName("imagenHide");
+
 // fin sección variables globales --->
 
 // inicio funcionalidad NAVEGADOR --->
@@ -45,5 +48,18 @@ document.addEventListener("scroll", cambiarFondoNavegador);
 
 
 // inicio funcionalidad IMAGEN-VIDEO >---
+for(var i = 0 ; i < videos.length; i++){
+  videos[i].style.display = "none";
+}
+
+for(var i = 0 ; i < imagenes.length; i++){
+  imagenes[i].addEventListener("click", escondeImg);
+  muestraVideo();
+}
+
+function escondeImg(){
+  this.style.display = "none";
+}
+
 
 // fin funcionalidad IMAGEN-VIDEO --->
