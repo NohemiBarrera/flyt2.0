@@ -59,11 +59,12 @@ for(var i = 0 ; i < videos.length; i++){
 
 for(var i = 0 ; i < imagenes.length; i++){
   imagenes[i].addEventListener("click", escondeImg);
-  muestraVideo();
 }
 
 function escondeImg(){
   this.style.display = "none";
+  this.nextElementSibling.style.display = "block"
+  this.nextElementSibling.style.width = "60%"
 }
 
 
