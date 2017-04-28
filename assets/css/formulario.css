@@ -1,0 +1,69 @@
+
+.cuadroForm{
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.totalForm{
+  width: 500px;
+  line-height: 50px;
+  right: 0;
+  top: 180px;
+  position: absolute;
+  height: 400px;
+  padding: 10px;
+  margin-bottom: 0;
+}
+.cuadroForm{
+  text-align: justify;
+  padding-left: 70px;
+}
+h1{
+  font-size: 50px;
+  color: #380B61;
+  font-stretch: expanded;
+}
+.subtitulo{
+  font-size: 19px;
+  font-stretch: expanded;
+}
+input{
+  margin: 2px;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid #848484;
+  width: 300px;
+  height: 30px;
+}
+.cuadrito{
+  width: 15px;
+  height: 15px;
+}
+.driver{
+  font-size: 15px;
+  line-height: 30px;
+  width: 150px;
+  height: 40px;
+  background-color: #FF0080;
+  border-radius: 10px;
+  border-color: transparent;
+
+}
+.sing{
+  font-size: 15px;
+  line-height: 30px;
+  color: #848484;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: underline;
+}
+.condiciones{
+  line-height: 20px;
+  font-size: 11px;
+}
+#link{
+  color: #FF0080;
+  text-decoration: none;
+}

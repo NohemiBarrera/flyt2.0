@@ -1,0 +1,48 @@
+.nav-menu {
+  display: inline-block;
+  width: 100px;
+  height: 50px;
+}
+li{
+  padding: 15px;
+  margin-top: 0;
+  list-style: none;
+  float: right;
+  clear: both;
+}
+.logo1{
+  padding-left: 100px;
+  padding-top: 20px;
+  width: 85px;
+  height: 55px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#navegador{
+  z-index: 1;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  height: 20%;
+ background-color: transparent;
+}
+.menu {
+    text-decoration: none;
+    color: #cccdd1 ;
+    padding: 10px;
+    font-size: X-large;
+    margin:1px;
+}
+a:hover{
+  color: #4C0B5F;
+}
+.fondito{
+  width: 100%;
+  position: static;
+}
+.escondido{
+  display: none;
+}

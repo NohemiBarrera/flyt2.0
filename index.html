@@ -2,95 +2,200 @@
 <html>
   <head>
     <meta charset="utf-8">
+
     <title>Flyt 2.0 </title>
     <!--Pon tus enlaces de estilo aqui formato assets/css/nombreDeLaSeccion.css-->
+    <link rel="stylesheet" href="assets/css/formulario.css">
+		<link rel="stylesheet" href="assets/css/navegador.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="assets\css\informativa.css">
   </head>
   <body>
     <!--Navegador Pari -->
+    <header>
+      <nav id="navegador" class="navigation">
+        <ul class="nav-menu">
+              <span> <img src="assets/img/logo-pink.png" alt="" class="logo1"></span>
+        </ul>
+
+        <ul>
+              <li>
+                <a class="menu" href="#">Drive</a>
+                <a class="menu" href="#">Explore</a>
+                <a class="menu" href="#">Help</a>
+                <a class="menu" href="#">Log in</a>
+                <a class="menu escondido" href="#">Sign up</a>
+             </li>
+        </ul>
+      </nav>
+      <div> <video class="fondito" src="assets/img/hero-video.mp4"></video></div>
+    </header>
 
 
     <!--Fin Navegador Pari -->
     <!-- Seccion 1 - Karen- Formulario/Header-->
-       <form id="formulario">
-         <section id="formularioMostrado">
-             <div class="">
-               <input type="tel" name="phone" value="Phone Number" id="formTelefono">
-               </div>
-             <section id="formularioOculto">
-               <div>
-                     <input type="name" name="first Name" value="First name">
-                 </div>
-                 <div>
-                     <input type="name" name="last Name"  value="Last name">
-                 </div>
-                 <div>
-                     <input type="email" name="email" value="e-mail">
-                 </div>
-                 <div>
-                     <input type="text" name="region" value="City">
-                 </div>
-                 <div>
-                     <input type="checkbox">
-                     <label for="agreeToTerms">
-                         <span class="text-small">
-                             I agree to
-                             <a href="/terms">Lyft´s Terms of Service</a>
-                         </span>
-                     </label>
-                 </div>
-             </section>
-           </section>
-              <div>
-                  <button type="submit">Become a Driver</button>
-                  <button type="button">Sing Up to Ride</button>
-              </div>
-              <div>
-                  <p>"Already applies?"</p>
-                  <a href="#">Check the status of your application here.</a>
-                  <p>"Earn money for inviting friends to drive."</p>
-                  <a href="#">Learn More</a>
+    <section class="totalForm">
+     <div class="cuadroForm">
+      <h1>TURN MILES<br>
+        INTO MONEY</h1>
+      <p class="subtitulo">SIGN UP TO DRIVE WHITH LYFT</p>
 
-              </div>
-       </form>
+     <div id="formularioMostrado">
+       <input type="text" name="phone"  id="formTelefono">
+     </div>
+     <div id="formularioOculto">
+       <input type="text" name="first Name" >
+       <input type="text" name="last Name"  >
+       <input type="text" name="email" >
+       <input type="text" name="region"><br>
+       <input class="cuadrito" type="checkbox">
+       <label for="agreeToTerms"></label>
+       <span class=condiciones></span>
+       I agree to <a href="/terms">Lyft´s Terms of Service</a><br>
+     </div>
+     <div id="formularioMostrado">
+       <button class="driver" type="submit">Become a Driver</button>
+       <button class="sing" type="button">Sing Up to Ride</button><br>
+       <p class="condiciones">Already applies?
+       <a href="#" class="condiciones" id="link">Check the status of your application here.</a></p>
+     <p class="condiciones"> Earn money for inviting friends to drive.
+     <a href="#" class="condiciones" id="link">Learn More</a> </p>
+      </div>
+      </div>
+   </section>
     <!--fin formulario header -->
     <!--Seccion Informativa 1 Karen-->
-     <div>
-        <div class="aling-center">
-              <h3> A RIDE IN MINUTES </h3>
-               <p>Request a ride and you'll way in minutes. Request. Ride. Repeat.</p>
-        </div>
-        <div class="aling-center">
-               <h3>SERIOUS ABOUT SAFETY</h3>
-               <p>From knowing the color of your driver's car to our 24/7 Trust & Safety Team, we got you.</p>
-        </div>
-        <div>
-            <h3> HAPPY DRIVERS.</h3>
-               <h3> HAPPY RIDERS.</h3>
-               <p>Ride with us and you'll see why 9 out of 10 rides end with five stars.</p>
-        </div>
-
-        <div>
-            <img class="telefono" src="assets/img/phone.png">
-        </div>
+    <section id="contenedor1">
+      <div class="secciones">
+        <h3> A RIDE IN MINUTES</h3><br>
+        <p>Request a ride and you'll be on your way in <br>
+           minutes. Request. Ride. Repeat.</p>
+      <div class="secciones">
+        <h3>SERIOUS ABOUT SAFETY</h3><br>
+        <p>From knowing the color of your driver's car to our 24/7 Trust & Safety Team, we got you.</p>
+      </div>
+      <div class="secciones">
+        <h3> HAPPY DRIVERS.</h3>
+        <h3> HAPPY RIDERS.</h3><br>
+        <p>Ride with us and you'll see why 9 out of 10 rides end with five stars.</p>
+      </div>
     </div>
-    <section id="contenedor">
-     <div class="seccionInter">
-       <h3>WATCH</h3>
-       <h2>AMPLIFY YOUR RIDE</h2>
-       <p class="parrafo izquierdo">Lyft’s new emblem, Amp,
-          is the secret to smooth pickups. Lighting up dashboards nationwide,
-          the device makes it easy for passengers and drivers to find each other.</p>
-     </div>
+      <div class="contenedor-extra">
+        <img id="telefono" src="assets/img/phone.png">
+      </div>
+  </section>
     <!--fin seccion informativa  1 Karen  -->
     <!-- Secccion Videos Aileen. -->
-
+    <section class="top">
+         <div>
+             <div class="description-top">
+                 <p>Watch</p>
+                 <h3>AMPLIFY YOUR RIDE</h3>
+                 <p id="top" class="pharagraph-description">Lyft’s new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+             </div>
+             <div>
+                 <img src="assets/img/img-video-1.png" class="img-video-1">
+                 <iframe width="854" height="480" src="https://www.youtube.com/embed/V8aoSjGmtOU" frameborder="0" allowfullscreen></iframe>
+             </div>
+         </div>
+     </section>
+      <section class="middle">
+        <div>
+            <div class="description-middle">
+                <p>Watch</p>
+                <h3>JUNE</h3>
+                <p id="middle" class="pharagraph-description">In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride — and sharing her life, too.</p>
+            </div>
+            <div>
+                <img src="assets/img/img-video-2.png" class="img-video-2">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/kz6GON4ykNo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="bottom">
+        <div>
+            <div class="description-bottom">
+                <p>Watch</p>
+                <h3>A GOOD THING GOING</h3>
+                <p id="bottom" class="pharagraph-description">Launching on TV and online, “Ride on the Bright Side” shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+            </div>
+            <div>
+                <img src="assets/img/img-video-3.png" class="img-video-3">
+                <iframe width="854" height="480" src="https://www.youtube.com/embed/tFooqsV7yTk" frameborder="0"  allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
 
     <!--Seccion  fin Videos Aileen-->
     <!--Seccion de informacion 2.Aileen-->
 
     <!-- fin de Seccion de informacion 2. Aileen-->
     <!--footer-->
-
+            <footer>
+        <div class="drive">
+            <ul>
+                <li class="to">DRIVE</li>
+                <li class="to">RIDE</li>
+                <li class="to">LOG IN</li>
+                <li>Help</li>
+                <li>Cities</li>
+                <li>Airports</li>
+                <li>Fare Estimate</li>
+                <li>Free Ride Credits</li>
+                <li>Driver Promo</li>
+                <li>Gift Cards</li>
+            </ul>
+        </div>
+        <div class="partner">
+            <ul>
+                <li class="except">PARTNER</li>
+                <li>Partnership</li>
+                <li>Business</li>
+                <li>Ambassadors</li>
+                <li>Developers</li>
+                <li>Events</li>
+            </ul>
+        </div>
+        <div class="learn">
+            <ul>
+                <li class="except">LEARN</li>
+                <li>Safety</li>
+                <li>Blog</li>
+                <li>Press</li>
+                <li>Careers</li>
+                <li>Driver Requirements</li>
+            </ul>
+        </div>
+        <div id="miau">
+            <div class="logos">
+                <img src="assets/img/appstore.png" class="loguito">
+            </div>
+            <div class="logos">
+                <img src="assets/img/google-play.png" class="loguito">
+            </div>
+            <div class="logos">
+                <img src="assets/img/amazon.png" class="loguito">
+            </div>
+            <div class="logos">
+                <img src="assets/img/microsoft.png" class="loguito">
+            </div>
+        </div>
+        <div class="iconos">
+            <div>
+                <img src="assets/img/facebook-logo.png" class="icono-facebook">
+            </div>
+            <div>
+                <img src="assets/img/instagram-logo.png" class="icono-instagram">
+            </div>
+            <div>
+                <img src="assets/img/twitter-logo.png" class="icono-twitter">
+            </div>
+        </div>
+    </footer>
     <!-- fin del footer -->
+    <script type="text/javascript" src="assets\js\main.js">
+
+    </script>
   </body>
 </html>
